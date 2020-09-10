@@ -21,7 +21,7 @@ http://www.europeansocialsurvey.org
 
 There are no restrictions on what dataset you use, other than you cannot use the specific datasets used in the book, and your dataset for the mid-term and final project must be different.You will turninyour mid-term at the end of Week 6.The following is due submitted to the assignment link or submit a link to your GitHub repository to the assignment link:
 
-o Your datasetwith the following transformations 
+o Your dataset with the following transformations 
 
 o Replace headers (Data Wrangling with Python pg. 154 –163)oFormat Data to a Readable Format (Data Wrangling with Python pg. 164 –168)
 
