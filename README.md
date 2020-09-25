@@ -1,32 +1,27 @@
-# DSC540_Mid_Term_Project
-you will be working on a mid-term project that takes you through a data cleansing project.  
+# DSC 540 Mid Term Project
+# Abstract
+This was a  mid-term project that went more into data cleansing or data wrangling. I had to select a dataset, perform various cleansing methods using Python to the dataset and submitted my newly formatted readable dataset. My dataset had a minimum of 1000 records and 15-20 variables and this project was based on the Data Wrangling with Python book. Below were the guidelines of the project:
 
-You will select a dataset, perform various cleansing methods using Python to the dataset and submit your newly formatted readable dataset.The first step is selecting a dataset.  Your dataset must have a minimum of 1000 records and 15-20 variables.The authors of our book Data Wrangling with Python have some suggestions where datasets can be found on Pages 130-140 of your textbook. 
+Replace headers and Format Data to a Readable Format 
+Identify outliers and bad data 
+Find Duplicates
+Conduct Fuzzy Matching
 
-Some other helpful places to find datasets include:
+# Preview
 
-https://community.tableau.com/docs/DOC-10635
+![Preview of midterm image 01](https://github.com/micgonzalez/DSC540_Mid_Term_Project/blob/master/dsc540_midterm_chart_01.png)
+This is a preview image of a comparison chart between men and women.
 
-https://www.kaggle.com/datasets
+![Preview of midterm image 02](https://github.com/micgonzalez/DSC540_Mid_Term_Project/blob/master/dsc540_midterm_chart_02.png)
+This is a preview image of a comparison chart between men and women.
 
-http://www.data.gov
+You can try this code from this project's repository.
 
-http://www.science.gov
+# Findings
+I will remove the missing data by using the drop.na() function. I am removing a variable called SMULEV, it represent the counties and the dataset already has a variable called county. I am treating them as duplicates. The Age_Group variable needs to be replaced as a string. I will be looking for duplicate counties for this mid term project. I will be looking at the total age group variable and I will create a dataframe of this variable.
 
-http://data.gov.uk
+# Challenges
+The challenging part of this project was getting the fuzzy matching to work correctly. The implementation was not the issue but, tunning it to match words that were in the dataset.
 
-http://gss.norc.org/
-
-http://www.europeansocialsurvey.org
-
-There are no restrictions on what dataset you use, other than you cannot use the specific datasets used in the book, and your dataset for the mid-term and final project must be different.You will turninyour mid-term at the end of Week 6.The following is due submitted to the assignment link or submit a link to your GitHub repository to the assignment link:
-
-o Your dataset with the following transformations 
-
-o Replace headers (Data Wrangling with Python pg. 154 –163)oFormat Data to a Readable Format (Data Wrangling with Python pg. 164 –168)
-
-o Identify outliers and bad data (Data Wrangling with Python pg. 169 –174)
-
-o Find Duplicates(Data Wrangling with Python pg. 175 –178)
-
-o Conduct Fuzzy Matching(if you don’t have an obvious example to do this with in your data, create categories and use Fuzzy Matching to lump data together) (Data Wrangling with Python pg. 179 –188)
+# Conclusion
+After completing this project, I had more confidence in preforming data cleansing also known as data wrangling. At this star of this project, I wasn't sure how to go about doing this project. When I overcame the challenge of fuzzy matching, I saw the great power of this application.
