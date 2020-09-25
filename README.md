@@ -2,10 +2,10 @@
 # Abstract
 This was a  mid-term project that went more into data cleansing or data wrangling. I had to select a dataset, perform various cleansing methods using Python to the dataset and submitted my newly formatted readable dataset. My dataset had a minimum of 1000 records and 15-20 variables and this project was based on the Data Wrangling with Python book. Below were the guidelines of the project:
 
-Replace headers and Format Data to a Readable Format 
-Identify outliers and bad data 
-Find Duplicates
-Conduct Fuzzy Matching
+* Replace headers and Format Data to a Readable Format 
+* Identify outliers and bad data 
+* Find Duplicates
+* Conduct Fuzzy Matching
 
 # Preview
 
